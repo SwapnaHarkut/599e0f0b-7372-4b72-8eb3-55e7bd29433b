@@ -24,7 +24,7 @@ namespace RobotApi
                 });
     }
 
-    public class Robot
+    public class Robot : IRobot
     {
         public const string OUT_OF_BOUNDS_MESSAGE = "Command ignored - out of bounds";
         public const string NOT_PLACED_YET_MESSAGE = "Command ignored - robot not placed yet";
